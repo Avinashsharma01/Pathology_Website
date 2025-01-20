@@ -7,21 +7,21 @@ function Nav() {
     return (
         <nav className="bg-slate-600">
             {/* Mobile Menu Toggle Button */}
-            <div className="flex justify-between items-center h-[50px] px-4 md:px-8">
-                {/* <h1 className="text-white font-bold text-lg">LOGO</h1> */}
-                <button
-                    className="text-white text-2xl md:hidden"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                >
-                    ☰
-                </button>
-            </div>
+            <button
+                className="text-white text-2xl md:hidden px-5"
+                onClick={() => setMenuOpen(!menuOpen)}
+            >
+                ☰
+            </button>
+            {/* <div className="flex justify-between items-center h-[50px] px-4 md:px-8">
+                <h1 className="text-white font-bold text-lg">LOGO</h1>
+            </div> */}
 
             {/* Menu Items */}
             <ul
                 className={`${
                     menuOpen ? "block" : "hidden"
-                } md:flex md:gap-10 md:justify-center md:items-center md:h-[50px] bg-slate-600`}
+                } md:flex md:gap-10 md:justify-center flex-wrap content-center md:items-center md:min-h-[50px] bg-slate-600`}
             >
                 <li className="cursor-pointer p-2 md:p-0">
                     <NavLink

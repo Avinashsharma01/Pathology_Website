@@ -48,7 +48,7 @@ function KeyFeatures() {
     ];
     return (
         <section
-            className="w-full h-screen "
+            className="w-full min-h-screen h-auto"
             style={{
                 backgroundImage: `url(${BackgroundIMG})`,
                 opacity: "10px",
@@ -59,7 +59,7 @@ function KeyFeatures() {
                     {features.map((feature, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out mt-6"
+                            className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out mt-3  mb-3"
                         >
                             <div
                                 className="h-40 bg-cover bg-center"
