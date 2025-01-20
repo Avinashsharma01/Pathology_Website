@@ -36,9 +36,23 @@ const Promoter = () => {
     ];
 
     return (
-        <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-32">
+            <div className="about  bg-white rounded-lg shadow-lg p-6">
+                <h1 className=" text-purple-600 text-2xl font-bold">
+                    ABOUT US
+                </h1>
+                <p>
+                    IGenome DX India is an integrated diagnostic lab which
+                    offers advanced diagnostic solutions at the forefront of
+                    disease detection, providing reliable, accurate, and fast
+                    results through cutting-edge technology. Specializing in
+                    areas such as pharmacogenomic testing, the company ensures
+                    personalized healthcare by determining the efficacy and
+                    suitability of drug treatments for individual patients.
+                </p>
+            </div>
             {/* Promoters Section */}
-            <h2 className="text-3xl font-bold text-center text-purple-600 mb-8">
+            <h2 className="text-3xl font-bold text-center text-purple-600 mb-8 mt-8">
                 PROMOTERS
             </h2>
             <p className="text-center text-gray-600 mb-12">
